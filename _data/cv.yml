@@ -12,13 +12,13 @@
   type: time_table
   contents:
     - title: Ph.D.
-      institution: Indian Institue of Science, Bangalore
+      institution: Indian Institue of Science (IISc), Bangalore
       year: 2017 - (2023)
       description:
         - Interdesciplinary, Ph.D. in Engineering
     - title: Bachelor of Engineering
-      institution: M. S. Ramaiah Institute of Technology
-      year: 2013-2017
+      institution: M. S. Ramaiah Institute of Technology (MSRIT)
+      year: 2013 - 2017
       description:
         - Electronics and Communication Engineering
 
@@ -69,7 +69,7 @@
       items: 
         - Runners Up - Ideathon (IISc - MSRIT Symposium on Smart Cities)
         - Runners Up (best project - MSRIT, Class of 2017)
-        - Gold Medal (for higher cumulative grade-point average (GPA) - Class of 2017)
+        - Gold Medal (Highest Cumulative GPA - MSRIT, Class of 2017)
     - year: 2018
       items: 
         - Microsoft Research (MSR) Ph.D. Fellowship
