@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: A list of courses for which I've served as a Teaching assistant
 nav: true
 nav_order: 5
