@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: A list of courses for which I've served as a Teaching assistant
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
 I've served as a teaching assistant for the following courses at the Department of Electrical Engineering, IISc, Bangalore:
