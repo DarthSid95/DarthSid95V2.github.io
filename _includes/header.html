@@ -89,15 +89,22 @@
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
-                  {%- if page.title == "photography" -%}
+<!--                   {%- if page.title == "photography" -%}
                   <i class="fa-images"></i>
-                  {%- endif -%}
+                  {%- endif -%} -->
                 </a>
               </li>
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
               {%- if site.enable_darkmode %}
+
+              <!-- Go to photography webpage -->
+              <li><a href="{{site.url}}/photography">
+                <button id="photos" title="Go to Photos">
+                <i class="fas fa-images"></i>
+              </a>
+              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
