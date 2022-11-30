@@ -97,16 +97,15 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              {%- if site.enable_darkmode %}
 
               <!-- Go to photography webpage -->
-            <div class="container">
-              <a class="navbar-brand title font-weight-lighter" href="{{site.url}}/photography">
-                <span class="font-weight-bold fas fa-images"></span>
+              <li><a href="{{site.url}}/photography">
+                <i class="fas fa-camera"></i>
               </a>
-            </div>
+              </li>
 
               <!-- Toogle theme mode -->
-              {%- if site.enable_darkmode %}
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
