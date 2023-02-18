@@ -6,7 +6,7 @@ subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Ba
 
 profile:
   align: right
-  image: ProfilePic.jp2
+  image: ProfilePic.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Spectrum Lab, C-239</p>
