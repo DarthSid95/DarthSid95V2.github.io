@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-_I'm currently in the Job Market! -- Looking op opportunities in Generative modeling_
+_I'm currently on the Job Market! -- Looking for opportunities in Generative modeling_
 
 Hi! I'm an interdisciplinary Ph.D. student at the [Robert Bosch Center for Cyber-Physical Systems](https://cps.iisc.ac.in) (RBCCPS) at the [Indian Institute of Science](http://iisc.ac.in), Bangalore. I work at the Spectrum Lab in the Department of Electrical Engineering, under the supervision of Prof. [Chandra Sekhar Seelamantula](https://sites.google.com/site/chandrasekharseelamantula). Previously, I was at [M.S. Ramaiah Institute of Technology](http://msrit.edu) (MSRIT), Bangalore, where I completed my Bachelors in Engineering in Electronics and Communications Engineering. Check out my full [CV](/CV/) or [publications](/publications/). Amongst other things, I love [photography](/photography/) and of course, [Misty, my doggo!!](/doggo/)
 
