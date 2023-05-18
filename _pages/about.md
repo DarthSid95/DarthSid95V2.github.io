@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. An enjoyer of all things GANs.
+subtitle: >
+<p>Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. An enjoyer of all things GANs.</p>
+<p><span style="color:red">_Currently in the Job Market -- Looking op opportunities in Generative modeling_</span></p>
 
 profile:
   align: right
