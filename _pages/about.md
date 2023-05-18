@@ -26,6 +26,7 @@ My research interests are broadly in the area of generative modeling, with a foc
 
 Throughout my Ph.D. I've been graciously funded by the Microsoft Research Ph.D. Fellowship in 2018, the RBCCPS Ph.D. Fellowship in 2020-2021, and 2021-2022, and the Qualcomm Innovation Fellowship in 2019, 2021, and 2022. 
 
+
 <!---
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
