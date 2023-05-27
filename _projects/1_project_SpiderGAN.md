@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Spider GANs
+description: Project Page for the CVPR 2023 Paper
+img: assets/SpiderGANs/Thumb.png
+importance: 1
 category: work
 ---
 
