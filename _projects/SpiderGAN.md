@@ -4,8 +4,11 @@ title: Spider GANs
 description: Project Page for the CVPR 2023 Paper
 img: assets/SpiderGANs/Thumb.png
 importance: 1
-category: work
+category: papers
 ---
+
+Every Project Page has its time. Until then, here's some default text...
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
