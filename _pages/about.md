@@ -24,7 +24,7 @@ Hi! I'm an interdisciplinary Ph.D. student at the [Robert Bosch Center for Cyber
 
 My research interests are broadly in the area of generative modeling, with a focus on generative adversarial networks (GANs). My Ph.D. is on building theoretical foundations for analyzing GANs, and designing network architectures motivated by those findings. Recently, I've (like everyone else that worked with GANs) also been exploring score-based diffusion and normalizing-flow models!
 
-Throughout my Ph.D. I've been graciously funded by the Microsoft Research Ph.D. Fellowship in 2018, the RBCCPS Ph.D. Fellowship in 2020-2021, and 2021-2022, and the Qualcomm Innovation Fellowship in 2019, 2021, and 2022. 
+Throughout my Ph.D. I've been graciously funded by the Microsoft Research Ph.D. Fellowship in 2018, the RBCCPS Ph.D. Fellowship in 2020-2021, and 2021-2022, and the Qualcomm Innovation Fellowship in 2019, 2021, 2022 and 2023!
 
 
 <!---
