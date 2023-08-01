@@ -135,21 +135,11 @@
       </progress>
 {%- endif %}
 {% if page.permalink == '/' %}
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-  <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-      typeSpeed: 50,
-    });
-  </script>
         <!-- Hero Start -->
-<!--         <div class="hero" id="home">
+        <div class="hero" id="home">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
+                    <!-- <div class="col-sm-12 col-md-6">
                         <div class="hero-content">
                             <div class="hero-text">
                                 <p>I'm</p>
@@ -158,7 +148,7 @@
                                 <div class="typed-text">PhD @ IISc Bangalore, Generative AI and Images, ML Theory</div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
                         <div class="hero-image">
                             <img src="/assets/img/BannerPic.JPG" alt="Hero Image"> 
@@ -166,7 +156,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Hero End -->
 {%- endif %}
     </header>
