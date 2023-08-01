@@ -1,6 +1,7 @@
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -192,3 +193,4 @@
         letter-spacing: 0;
     }
 }
+
