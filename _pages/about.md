@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. An enjoyer of all things GANs. Currently ABD and looking for research opportunities! 
+subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. Currently ABD and looking for research opportunities! 
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-_I'm currently on the Job Market! -- All but defense, and looking for opportunities in generative modeling in Academia/Industry_
+_I'm currently All but defense, and looking for opportunities in generative modeling in Academia/Industry!!_
 
 Hi! I'm an interdisciplinary Ph.D. student at the [Robert Bosch Center for Cyber-Physical Systems](https://cps.iisc.ac.in) (RBCCPS) at the [Indian Institute of Science](http://iisc.ac.in), Bangalore. I work at the Spectrum Lab in the Department of Electrical Engineering, under the supervision of Prof. [Chandra Sekhar Seelamantula](https://sites.google.com/site/chandrasekharseelamantula). Previously, I was at [M.S. Ramaiah Institute of Technology](http://msrit.edu) (MSRIT), Bangalore, where I completed my Bachelors in Engineering in Electronics and Communications Engineering. Check out my full [CV](/cv/) or [publications](/publications/). Amongst other things, I love [photography](/photography/) and of course, [Misty, my doggo!!](/doggo/)
 
