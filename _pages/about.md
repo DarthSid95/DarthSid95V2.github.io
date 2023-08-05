@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. Currently ABD and looking for research opportunities! 
+subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. 
 
 profile:
   align: right
   image: ProfilePic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circular  Currently ABD and looking for research opportunities! 
   address: >
     <p>Spectrum Lab, C-239</p>
     <p>Electrical Engineering Dept.</p>
@@ -18,11 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-_I'm currently All but defense, and looking for opportunities in generative modeling in Academia/Industry!!_
+<!---_I'm currently All but defense, and looking for opportunities in generative modeling in Academia/Industry!!_ --->
 
-Hi! I'm an interdisciplinary Ph.D. student at the [Robert Bosch Center for Cyber-Physical Systems](https://cps.iisc.ac.in) (RBCCPS) at the [Indian Institute of Science](http://iisc.ac.in), Bangalore. I work at the Spectrum Lab in the Department of Electrical Engineering, under the supervision of Prof. [Chandra Sekhar Seelamantula](https://sites.google.com/site/chandrasekharseelamantula). Previously, I was at [M.S. Ramaiah Institute of Technology](http://msrit.edu) (MSRIT), Bangalore, where I completed my Bachelors in Engineering in Electronics and Communications Engineering. Check out my full [CV](/cv/) or [publications](/publications/). Amongst other things, I love [photography](/photography/) and of course, [Misty, my doggo!!](/doggo/)
+Hi! I'm an interdisciplinary Direct-Ph.D. scholar at the [Robert Bosch Center for Cyber-Physical Systems](https://cps.iisc.ac.in) (RBCCPS) at the [Indian Institute of Science](http://iisc.ac.in), Bangalore. I work at the Spectrum Lab in the Department of Electrical Engineering, under the supervision of Prof. [Chandra Sekhar Seelamantula](https://sites.google.com/site/chandrasekharseelamantula). Previously, I was at [M.S. Ramaiah Institute of Technology](http://msrit.edu) (MSRIT), Bangalore, where I completed my Bachelors in Engineering in Electronics and Communications Engineering. Check out my full [CV](/cv/) or [publications](/publications/). Amongst other things, I love [photography](/photography/) and of course, [Misty, my doggo!!](/doggo/)
 
-My research interests are broadly in the area of generative modeling, with a focus on generative adversarial networks (GANs). My Ph.D. is on building theoretical foundations for analyzing GANs, and designing network architectures motivated by those findings. Recently, I've (like everyone else that worked with GANs) also been exploring score-based diffusion and normalizing-flow models!
+My research interests are broadly in the area of machine learning and generative modeling, with a focus, during my Ph.D., on generative adversarial networks (GANs). My Ph.D. is on building theoretical foundations for analyzing GANs, leveraging insights from classical signal processing, and designing network architectures motivated by those findings. Recently, I've (like everyone else that worked with GANs) also been exploring score-based diffusion and normalizing-flow models!
 
 Throughout my Ph.D. I've been graciously funded by the Microsoft Research Ph.D. Fellowship in 2018, the RBCCPS Ph.D. Fellowship in 2020-2021, and 2021-2022, and the Qualcomm Innovation Fellowship in 2019, 2021, 2022 and 2023!
 
