@@ -22,7 +22,7 @@ Hi! I'm a Research Software Development Engineer (RSDE) at the [Microsoft Resear
 
 My research interests are broadly in the area of machine learning and generative modeling, with a focus, during my Ph.D., on generative adversarial networks (GANs). My Ph.D. was on building theoretical foundations for analyzing GANs, leveraging insights from classical signal processing, functional calculus and differential equation theory, and designing network architectures motivated by those findings. Recently, I've (like everyone else that worked with GANs) also been exploring score-based diffusion, and text-based generative models! Throughout my Ph.D. I've been graciously funded by the Microsoft Research Ph.D. Fellowship in 2018, the RBCCPS Ph.D. Fellowship in 2020-2021, and 2021-2022, and the Qualcomm Innovation Fellowship in 2019, 2021, 2022 and 2023!
 
-Looking to collaborate? It'd be great if you reached out to me at <FirstLetterOfFirstName><LastName>(at)microsoft(dot)com
+Looking to collaborate? It'd be great if you reached out to me at (FirstLetterOfFirstName)(LastName)(at)microsoft(dot)com
 
 
 <!---
