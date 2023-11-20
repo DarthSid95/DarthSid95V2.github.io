@@ -9,9 +9,10 @@ profile:
   image: ProfilePic.png
   image_circular: false # crops the image to make it circular  Currently ABD and looking for research opportunities! 
   address: >
-    <p>?Vigyan?, No. 9</p>
-    <p>Microsoft Research Lab -- India</p>
+    <p>``Vigyan'', No. 9</p>
+    <p>Microsoft Research Lab</p>
     <p>Lavelle Road, Bengaluru</p>
+    <p>Karnataka, 560001, India</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,7 +27,7 @@ My research interests are broadly in the area of machine learning and generative
 
 Throughout my Ph.D. I've been graciously funded by the Microsoft Research Ph.D. Fellowship in 2018, the RBCCPS Ph.D. Fellowship in 2020-2021, and 2021-2022, and the Qualcomm Innovation Fellowship in 2019, 2021, 2022 and 2023!
 
-Looking to collaborate or know more about my research? 
+Looking to collaborate or know more about my research? <br>
 Reach out to me at [FirstLetterOfFirstName][LastName] (at) microsoft (dot) com
 
 
