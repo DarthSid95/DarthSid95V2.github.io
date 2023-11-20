@@ -14,7 +14,7 @@ profile:
     <p>``Vigyan'', No. 9</p>
     <p>Microsoft Research Lab</p>
     <p>Lavelle Road, Bengaluru</p>
-    <p>Karnataka, 560001, India</p>
+    <p>Karnataka, 560001</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
