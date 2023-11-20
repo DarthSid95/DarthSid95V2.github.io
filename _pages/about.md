@@ -11,9 +11,9 @@ profile:
   image: ProfilePic.png
   image_circular: false # crops the image to make it circular  Currently ABD and looking for research opportunities! 
   address: >
-    <p>``Vigyan'', No. 9</p>
-    <p>Microsoft Research Lab</p>
-    <p>Lavelle Road, Bengaluru</p>
+    <p>``Vigyan'', No. 9,</p>
+    <p>Microsoft Research Lab,</p>
+    <p>Lavelle Road, Bengaluru,</p>
     <p>Karnataka, 560001</p>
 
 news: true  # includes a list of news items
