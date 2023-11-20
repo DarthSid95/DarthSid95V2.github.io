@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Scholar @ <a href='https://cps.iisc.ac.in'>RBCCPS,</a>, IISc, Bangalore. 
+subtitle: RSDE @ <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-india'>MSRI</a>, Bangalore | Ph.D. @ <a href='https://cps.iisc.ac.in'>RBCCPS</a>, <a href='https://iisc.ac.in'>IISc</a>, Bangalore. 
+
+
 
 profile:
   align: right
