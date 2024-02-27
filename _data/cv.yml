@@ -8,12 +8,33 @@
     - name: Languages
       value: English, Kannada, Hindi, Tamil, Sanksrit
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Sowtware Development Engineer (RSDE) II 
+      institution: Miscrosoft Research Lab India Pvt. Ltd., Bengaluru, India
+      year: 2023 (Nov--) 
+      description:
+        - Extreme Classification.
+        - Generative modeling.
+        - Information Search and Retrieval.
+    - title: Project Associate
+      institution: Spectrum Lab, Department of Electrical Engineering
+Indian Institute of Science, Bengaluru, India 
+      year: 2023 (Aug--Oct)
+      description:
+        - Langevin diffusion models.
+        - High-dimensional Interpolation.
+        - Variational Calculus, Fourier analysis.
+        - Discriminator Guidance in Score-based Diffusion
+
+
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. (Thesis submitted, May 10, 2023)
       institution: Indian Institue of Science (IISc), Bangalore
-      year: 2017 - (2023)
+      year: 2017 - 2023
       description:
         - Interdesciplinary, Ph.D. in Engineering
     - title: Bachelor of Engineering
@@ -87,6 +108,13 @@
     - year: 2022
       items: 
         - Winner - Qualcomm Innovation Felowship
+    - year: 2023
+      items: 
+        - Super Winner - Qualcomm Innovation Felowship
+        - Best Presenter – 14th IISc EECS Symposium – AI/ML Track
+    - year: 2024
+      items: 
+        - Prof. Satish Dhawan Research Award 2023
 
 - title: Relavant Coursework
   type: nested_list
