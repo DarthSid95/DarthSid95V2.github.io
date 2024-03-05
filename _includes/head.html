@@ -40,168 +40,6 @@
 <style>
 
 
-img {
-  width: 100%;
-  vertical-align: middle;
-}
-
-.image-spliter,
-img,
-.mover {
-  overflow: hidden;
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
-
-.image-spliter {
-  position: relative;
-}
-
-.img-left {
-  position: absolute;
-  top: 0;
-  left:0;
-}
-
-.mover {
-  position:absolute;
-  width: 200px;
-  height: 100%;
-  top: 0;
-  left:0;
-  z-index: 10;
-}
-.mover:before,
-.mover:after {
-  position:absolute;
-  left:50%;
-  content: "";
-  background: #fff;
-  cursor: -webkit-grab;
-  cursor: grab;
-}
-
-.mover:before {
-  top: 0;
-  transform:translateX(-50%);
-  width: 1px;
-  height: 100%;
-}
-.mover:after {
-  top: 50%;
-  transform:translate(-50%, -50%);
-  width: 5px;
-  height: 33%;
-  border-radius: 5px;
-}
-
-(function() {
-
-    var elsH = document.querySelectorAll(".image-spliter .mover");
-    var i = elsH.length;
-    while (i--) {
-        var moverWidth = elsH[i].getBoundingClientRect().width;
-        var imgLeft = elsH[i].nextElementSibling;
-        var width = imgLeft.getBoundingClientRect().width;
-        var height = imgLeft.getBoundingClientRect().height;
-        elsH[i].style.left = width / 2 - moverWidth / 2 + 'px';
-        //imgLeft.style.clip = "rect(0px, " + width / 2 + "px, " + height + "px, 0px)";
-        imgLeft.style.clip = "rect(0px, " + width / 2 + "px, 999px, 0px)";
-        var mouseDownX = 0;
-        var X;
-        elsH[i].addEventListener("mousedown", function(e) {
-            X = e.clientX;
-            mouseDownX = 1;
-        });
-        elsH[i].addEventListener("mouseup", function(e) {
-            mouseDownX = 0;
-        });
-        elsH[i].addEventListener("mouseout", function(e) {
-            mouseDownX = 0;
-        });
-
-        elsH[i].addEventListener("touchstart", function(e) {
-            X = e.touches[0].clientX;
-            mouseDownX = 1;
-        });
-        elsH[i].addEventListener("touchend", function(e) {
-            mouseDownX = 0;
-        });
-
-        elsH[i].addEventListener("mousemove", function(e) {
-            if (mouseDownX) {
-                this.style.left = parseInt(this.style.left) + (event.clientX - X) + "px";
-                X = event.clientX;
-                this.nextElementSibling.style.clip = "rect(0px, " + (this.getBoundingClientRect().width / 2 + parseInt(this.style.left)) + "px, " + this.getBoundingClientRect().height + "px, 0px)";
-            }
-        });
-
-        elsH[i].addEventListener("touchmove", function(e) {
-            if (mouseDownX) {
-                this.style.left = parseInt(this.style.left) + (e.touches[0].clientX - X) + "px";
-                X = e.touches[0].clientX;
-                this.nextElementSibling.style.clip = "rect(0px, " + (this.getBoundingClientRect().width / 2 + parseInt(this.style.left)) + "px, " + this.getBoundingClientRect().height + "px, 0px)";
-            }
-        });
-
-    }
-
-
-    window.addEventListener("resize", function(f) {
-        var elsHre = document.querySelectorAll(".image-spliter .mover");
-        var ii = elsHre.length;
-        while (ii--) {
-            var moverWidth = elsHre[ii].getBoundingClientRect().width;
-            var imgLeft = elsHre[ii].nextElementSibling;
-            var width = imgLeft.getBoundingClientRect().width;
-            var height = imgLeft.getBoundingClientRect().height;
-            elsHre[ii].style.left = width / 2 - moverWidth / 2 + 'px';
-            imgLeft.style.clip = "rect(0px, " + width / 2 + "px, " + height + "px, 0px)";
-        }
-    });
-
-})();
-
-
-.image-slider {
-    margin-left: 3rem;
-    position: relative;
-    display: inline-block;
-    line-height: 0;
-}
- 
-.image-slider img {
-    user-select: none;
-    max-width: 400px;
-}
- 
-.image-slider > div {
-    position: absolute;
-    width: 25px;
-    max-width: 100%;
-    overflow: hidden;
-    resize: horizontal;
-}
- 
-.image-slider > div:before {
-    content: '';
-    display: block;
-    width: 13px;
-    height: 13px;
-    overflow: hidden;
-    position: absolute;
-    resize: horizontal;
-    right: 3px;
-    bottom: 3px;
-    background-clip: content-box;
-    background: linear-gradient(-45deg, black 50%, transparent 0);
-    -webkit-filter: drop-shadow(0 0 2px black);
-    filter: drop-shadow(0 0 2px black);
-}
 
 .hero {
     position: relative;
@@ -396,6 +234,179 @@ img,
     }
 }
 
+
+/* Adding the Slider Images Code */
+
+
+.bal-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bal-after {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bal-before {
+    display: block;
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    overflow: hidden;
+}
+
+.bal-before-inset {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bal-after img,
+.bal-before img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.bal-beforePosition {
+    background: #121212;
+    color: #fff;
+    left: 0;
+    pointer-events: none;
+    border-radius: 0.2rem;
+    padding: 2px 10px;
+}
+
+.bal-afterPosition {
+    background: #121212;
+    color: #fff;
+    right: 0;
+    pointer-events: none;
+    border-radius: 0.2rem;
+    padding: 2px 10px;
+}
+
+.beforeLabel {
+    position: absolute;
+    bottom: 0;
+    margin: 1rem;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.afterLabel {
+    position: absolute;
+    bottom: 0;
+    margin: 1rem;
+    font-size: 1em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+/* handle and arrow */
+
+.bal-handle {
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -21px;
+    border: 2px solid #fff;
+    border-radius: 1000px;
+    z-index: 20;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+}
+
+.handle-left-arrow,
+.handle-right-arrow {
+    width: 0;
+    height: 0;
+    border: 6px inset transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.handle-left-arrow {
+    border-right: 6px solid #fff;
+    left: 50%;
+    margin-left: -17px;
+}
+
+.handle-right-arrow {
+    border-left: 6px solid #fff;
+    right: 50%;
+    margin-right: -17px;
+}
+
+.bal-handle::before {
+    bottom: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+}
+
+.bal-handle::after {
+    top: 50%;
+    margin-top: 20.5px;
+    box-shadow: 0 0 5px rgb(12, 12, 12);
+}
+
+.bal-handle::before,
+.bal-handle::after {
+    content: " ";
+    display: block;
+    width: 2px;
+    background: #fff;
+    height: 9999px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+<script src="js/script.js"></script>
+
+new BeforeAfter({
+    id: '#one'
+});
 
 
 </style>
